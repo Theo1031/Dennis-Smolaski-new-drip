@@ -1,10 +1,13 @@
 .header-banner {
-    background-image: url('SCU_Egineering_Banner.png');
-    background-size: 300px;
+    background-image: url('Screenshot\ 2023-11-15\ 210949.png');
+    background-size: 1000px;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 220px;
+    height: 600px;
 }
+
+
+  
 .nav-link:hover {
     background-color: #f0f0f0; /* Light grey background on hover */
     border-radius: 4px; /* Rounded corners for a softer look */
