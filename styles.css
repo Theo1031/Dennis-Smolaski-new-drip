@@ -1,0 +1,25 @@
+.header-banner {
+    background-image: url('SCU_Egineering_Banner.png');
+    background-size: 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 220px;
+}
+.nav-link:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
+    border-radius: 4px; /* Rounded corners for a softer look */
+}
+
+.list-item::before {
+    content: url('path_to_icon.png'); /* Replace with your icon path */
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.list-item {
+    transition: color 0.3s;
+}
+
+.list-item:hover {
+    color: blue; /* Or any other color from your design */
+}
