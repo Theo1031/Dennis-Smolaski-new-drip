@@ -10,6 +10,18 @@ header {
     padding: 10px 0; /* Reduces the padding inside the header, adjust the values as needed */
 }
 
+
+
+#important {
+    font-size: 25px;
+    text-decoration: underline;
+    
+   
+}
+
+
+
+
 /* If you have specific elements inside the header you want to adjust, you can target them specifically */
 .header-element-class {
     margin-top: 0; /* Adjust the margin to reduce space */
