@@ -1,16 +1,13 @@
 .header-banner {
-    background-image: url('Screenshot\ 2023-11-15\ 210949.png'); /* Make sure the path is correct */
-    background-size: contain; /* This will make sure the entire image is visible */
-    background-position: center center; /* This will center the image in the available space */
+    background-image: url('../images/bottom.gif'), url('../images/left.gif'), url('../images/right.gif'), url('../images/top.gif');
+    background-size: 100% 100%;
+    background-position: bottom, left, right, top; /* Position each image accordingly */
     background-repeat: no-repeat;
-    height: 300px; /* Adjust the height as needed */
-    width: 100%; /* Ensure the width is set to cover the entire container width */
+    height: 300px; 
+    width: 100%;
 }
 header {
-    padding: 10px 0; /* Reduces the padding inside the header, adjust the values as needed */
-}
-
-
+    padding: 10px 0;
 
 #important {
     font-size: 25px;
@@ -22,9 +19,8 @@ header {
 
 
 
-/* If you have specific elements inside the header you want to adjust, you can target them specifically */
 .header-element-class {
-    margin-top: 0; /* Adjust the margin to reduce space */
+    margin-top: 0; 
 }
 
 
